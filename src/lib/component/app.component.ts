@@ -10,8 +10,9 @@ import { Component } from '@angular/core';
   styles: [`
   p {
       color: red;
+  }
   `]
 })
 export class AppComponent {
-  name: 'App';
+  name = 'App';
 }
